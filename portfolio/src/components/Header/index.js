@@ -37,17 +37,17 @@ export default function () {
               </a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="/portfolio">
+              <a className="nav-link" href="/port">
                 Portfolio <span className="sr-only">(current)</span>
               </a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="/resume">
+              <a className="nav-link" href="/res">
                 Resume <span className="sr-only">(current)</span>
               </a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="/contact">
+              <a className="nav-link" href="/cont">
                 Contact Me <span className="sr-only">(current)</span>
               </a>
             </li>
