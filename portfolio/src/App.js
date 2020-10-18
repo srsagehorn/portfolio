@@ -15,21 +15,25 @@ import Header from "./components/Header"
 
 function App() {
   return (
-    <Router  basename="/portfolio">
+    <Router>
       <Header />
         <Switch>
-          <Route path="/">
+          <Route path="/" exact component={Home} />
+          <Route path="/portfolio" exact component={Portfolio} />
+          <Route path="/resume" exact component={Resume} />
+          <Route path="/contact" exact component={Contact} />
+          {/* <Route path="/">
             <Home />
           </Route>
-          <Route path="/port">
+          <Route path="/portfolio">
             <Portfolio />
           </Route>
-          <Route path="/res">
+          <Route path="/resume">
             <Resume />
           </Route>
-          <Route path="/cont">
+          <Route path="/contact">
             <Contact />
-          </Route>
+          </Route> */}
         </Switch>
     </Router>
   );
