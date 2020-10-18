@@ -15,13 +15,9 @@ import Header from "./components/Header"
 
 function App() {
   return (
-    <Router  basename={process.env.PUBLIC_URL}>
+    <Router  basename="/portfolio">
       <Header />
         <Switch>
-          {/* <Route path="/" exact component={Home} />
-          <Route path="/portfolio" exact component={Portfolio} />
-          <Route path="/resume" exact component={Resume} />
-          <Route path="/contact" exact component={Contact} /> */}
           <Route path="/">
             <Home />
           </Route>
