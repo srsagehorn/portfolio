@@ -18,11 +18,11 @@ function App() {
     <Router>
       <Header />
         <Switch>
-          <Route path="/" exact component={Home} />
+          {/* <Route path="/" exact component={Home} />
           <Route path="/portfolio" exact component={Portfolio} />
           <Route path="/resume" exact component={Resume} />
-          <Route path="/contact" exact component={Contact} />
-          {/* <Route path="/">
+          <Route path="/contact" exact component={Contact} /> */}
+          <Route path="/">
             <Home />
           </Route>
           <Route path="/portfolio">
@@ -33,7 +33,7 @@ function App() {
           </Route>
           <Route path="/contact">
             <Contact />
-          </Route> */}
+          </Route>
         </Switch>
     </Router>
   );
