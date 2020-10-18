@@ -1,0 +1,520 @@
+body {
+  background-color: white;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: black;
+  margin: auto;
+}
+
+p {
+  font-family: sofia-pro-soft, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* nav */
+header {
+  background-color: white;
+  border-bottom: solid 4px rgb(136, 162, 170);
+  position: fixed !important;
+  width: 100%;
+  z-index: 9999;
+  padding: 0 !important;
+}
+
+/* .container {
+  width: 60%;
+} */
+
+.pageContent {
+  position: relative;
+  top: 130px;
+}
+
+.navImg {
+  height: 100px;
+}
+
+.navImg:hover {
+  filter: invert(100%);
+}
+
+.navBtns {
+  position: relative;
+  right: 7%;
+  top: 8px;
+}
+
+.logoName {
+  position: relative;
+  left: 5%;
+}
+
+.nav-link {
+  color: black;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  border-bottom: 2px white solid;
+}
+
+.navbar-toggler {
+  text-align: center;
+}
+
+.menu {
+  height: 30px;
+}
+
+.nav-link:hover {
+  border-bottom: black solid 2px;
+  color: black;
+}
+
+.navbar-brand {
+  color: black;
+}
+
+.name:hover {
+  color: rgb(136, 162, 170);
+  text-decoration: none;
+}
+
+.name {
+  font-size: 60px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+  padding-left: 10px;
+  font-weight: 200;
+  color: black;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 200;
+  text-align: right;
+  position: relative;
+  right: 120px;
+}
+
+.firstln {
+  text-align: left;
+}
+
+.heading {
+  margin-top: auto;
+  margin-bottom: auto;
+  position: relative;
+  left: -80px;
+}
+
+.imgContainer {
+  text-align: center;
+}
+
+.prob {
+  font-weight: 800;
+}
+
+h3 {
+  height: 60px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 34px;
+}
+
+.addBtmPadding {
+  padding-bottom: 40px;
+}
+
+.active {
+  color: white;
+}
+
+/* body */
+.imgMe {
+  height: 550px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.indent {
+  text-indent: 40px;
+}
+
+.text a {
+  color: black;
+}
+
+.colorBox {
+  background-color: rgb(136, 162, 170);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.headLiner {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.index {
+  z-index: 9997;
+  width: 60%;
+}
+
+#contactLink {
+  text-decoration: underline;
+}
+
+/* portfolio */
+.title {
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.colorBlock {
+  background-color: white;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.card {
+  border: none;
+  height: 100%;
+  padding-bottom: 80px;
+}
+
+.card-body {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.card-title {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26px;
+  padding-bottom: 10px;
+}
+
+.card-link {
+  color: black;
+  background-color: rgb(218, 218, 218);
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 300;
+  box-shadow: 2px 2px 1px rgb(101, 100, 100);
+}
+
+.card-link:hover {
+  color: white;
+  background-color: #6c757d;
+}
+
+.card-link:hover > .leave {
+  filter: invert(100%);
+}
+
+i {
+  padding-left: 5px;
+}
+
+.portContainer {
+  padding-bottom: 40px;
+}
+
+.leave {
+  height: 13px;
+}
+
+/* resume */
+.resPic {
+  height: 40px;
+  position: relative;
+  top: 7px;
+}
+
+#download {
+  text-align: right;
+}
+
+.neb {
+  margin-bottom: 40px;
+}
+
+.btn-outline-secondary {
+  position: relative;
+  left: 50px;
+  bottom: 15px;
+}
+
+.h6 {
+  font-weight: 400;
+  font-size: 38px;
+  background-color: rgb(136, 162, 170);
+  width: 100%;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.eduHead {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.eduHead2 {
+  color: #51575e;
+  font-size: 24px;
+}
+
+.dates {
+  font-size: 18px;
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+.gdskill {
+  color: black;
+  border: solid 2px rgba(0, 0, 255, 0.351);
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 5px;
+  font-weight: 300;
+  margin: 5px;
+  display: inline-block;
+  font-size: 12px;
+}
+.cskill {
+  color: black;
+  border: solid 2px rgba(205, 1, 1, 0.481);
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 5px;
+  font-weight: 300;
+  margin: 5px;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.skill {
+  color: black;
+  border: solid 2px rgba(170, 0, 255, 0.707);
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 5px;
+  font-weight: 300;
+  margin: 5px;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.resBlock {
+  margin-top: 30px;
+}
+
+/* .box {
+  background-color: rgb(136, 162, 170);
+  border-radius: 10px;
+} */
+
+.resIcon {
+  text-align: center;
+}
+
+.info {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+.resumeContainer {
+  margin-bottom: 110px;
+}
+
+/* contact me */
+
+.contactForm {
+  background-color: rgb(136, 162, 170);
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.contactMe {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.contactImg {
+  height: 100px;
+  padding: 2px;
+  filter: grayscale(100%);
+  margin: 20px;
+}
+
+.contactImg:hover {
+  filter: grayscale(0%);
+}
+#space {
+  height: 100px;
+  background-color: white;
+}
+
+.contactIcons {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  padding-top: 140px;
+  padding-bottom: 75px;
+  text-align: center;
+  padding-bottom: 150px;
+  background-color: rgb(136, 162, 170);
+  margin-bottom: 300px;
+}
+
+.contactContainer {
+  background-color: black;
+  position: relative;
+  bottom: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.contactBtn {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 300;
+  box-shadow: 2px 2px 1px rgb(101, 100, 100);
+}
+
+/* the logo is black so Im not sure how I want to do this */
+#gitimg:hover {
+  filter: drop-shadow(0px 0px 1px black);
+}
+/* footer */
+footer {
+  height: auto;
+  margin: auto;
+  width: 95%;
+  display: block;
+  font-weight: 200;
+  color: white;
+  position: relative;
+  bottom: 1px;
+  margin-top: 120px;
+}
+
+.footerLnk {
+  color: white;
+}
+
+footer p {
+  text-align: center;
+  display: block;
+}
+
+footer img {
+  height: 40px;
+  margin: 5px;
+  filter: invert(100%);
+}
+
+.contactFooter {
+  margin-top: 180px;
+  width: 95%;
+  position: fixed;
+}
+
+.portFooter {
+  margin-top: 80px;
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 50px;
+  }
+  .nav-link {
+    margin-left: 5px;
+  }
+  .index {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .name {
+    font-size: 38px;
+  }
+  .navbar-brand {
+    margin-right: 0;
+    padding-right: 0;
+  }
+  h2 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 1000px) {
+}
+
+@media (max-width: 991px) {
+  h2 {
+    position: relative;
+    top: 0;
+    text-align: center;
+    position: relative;
+    right: 0;
+  }
+}
+
+@media (max-width: 770px) {
+  .resPic {
+    position: relative;
+    top: -9px;
+  }
+}
+
+@media (max-width: 650px) {
+  header {
+    height: 190px;
+  }
+  .name {
+    font-size: 32px;
+  }
+  .navbar-brand {
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+  .navImg {
+    height: 50px;
+  }
+  main {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .card-title {
+    padding-top: 20px;
+  }
+}
+/* flex box on the tagline beside photo */
