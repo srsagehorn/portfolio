@@ -32,7 +32,7 @@ export default function () {
         <div className="toggler-example collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link" href="/">
+              <a className="nav-link" href="/home">
                 Home<span className="sr-only">(current)</span>
               </a>
             </li>
